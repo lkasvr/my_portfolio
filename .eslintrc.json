@@ -5,6 +5,7 @@
   },
   "extends": [
     "eslint:recommended",
+    "prettier",
     "plugin:react/recommended"
   ],
   "parserOptions": {
@@ -12,9 +13,17 @@
     "sourceType": "module"
   },
   "plugins": [
-    "react"
+    "react",
+    "prettier"
   ],
   "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
+    "no-unused-vars": "warn",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "linebreak-style": [
