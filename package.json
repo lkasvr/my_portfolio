@@ -9,9 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "^13.4.4",
     "framer-motion": "^10.12.16",
-    "next": "13.4.3",
+    "next": "^13.4.7",
     "react": "18.2.0",
     "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
@@ -23,9 +22,15 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
-    "eslint": "8.41.0",
+    "eslint": "^8.44.0",
     "eslint-config-next": "13.4.3",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import-helpers": "^1.3.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "next-transpile-modules": "^10.0.0",
     "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
     "tailwindcss": "^3.3.2"
   }
 }
